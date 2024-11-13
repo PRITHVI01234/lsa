@@ -1,0 +1,5 @@
+[theme]
+base="light"
+font="serif"
+[client]
+showErrorDetails = false
