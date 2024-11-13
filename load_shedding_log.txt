@@ -1,0 +1,3 @@
+2024-11-13 23:32:24 - User requested to shed 200 Kw with tolerance 20 Kw. 200 Kw was shed successfully.
+2024-11-13 23:32:38 - User requested to shed 200 Kw with tolerance 20 Kw. 200 Kw was shed successfully.
+2024-11-13 23:38:02 - User requested to shed 2000 kvar with tolerance 20 kW. No valid combination found.
