@@ -79,7 +79,8 @@ def clear_log():
 
 # Sidebar for Log File Display
 with st.sidebar:
-    st.header("Load Shedding Log 📝")
+    st.header("Load Shedding Log 📝:")
+    st.divider()
 
     # Check if log file exists and display its contents with proper formatting
     if os.path.exists("load_shedding_log.txt"):
