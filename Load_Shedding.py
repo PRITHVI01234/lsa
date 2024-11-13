@@ -79,14 +79,13 @@ def clear_log():
 
 # Sidebar for Log File Display
 with st.sidebar:
-    st.header("Load Shedding Log 📝:")
-    st.divider()
+    st.header("Load Shedding Log 📝")
 
     # Check if log file exists and display its contents with proper formatting
     if os.path.exists("load_shedding_log.txt"):
         with open("load_shedding_log.txt", "r") as log_file:
             log_contents = log_file.read()
-        st.markdown("### Log File Contents:")
+        st.markdown("## Log File Contents:")
         # Render each timestamp (row) in a success or warning block based on the outcome
         for line in log_contents.strip().split("\n"):
           if " - " in line:  
